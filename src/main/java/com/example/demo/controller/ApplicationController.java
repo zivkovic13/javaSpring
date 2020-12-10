@@ -9,7 +9,7 @@ public class ApplicationController {
 	
 	@GetMapping("/login")
 	public String userLogin() {
-		return "login";
+		return "login";                     
 	}
 	
 	@GetMapping("/register")
