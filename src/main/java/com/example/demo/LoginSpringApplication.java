@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.example.demo.dao.UserDAOImpl;
+import com.example.demo.dao.UserDAO;
 import com.example.demo.repository.UserRepository;
 
 @SpringBootApplication
@@ -16,7 +16,7 @@ public class LoginSpringApplication {
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(LoginSpringApplication.class, args);	
 		
-		UserDAOImpl.insertUser();
+		UserDAO.insertUser();
 		
 	}
 
