@@ -4,22 +4,20 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.example.demo.model.User;
-import com.example.demo.repository.UsersRepository;
+import com.example.demo.dao.UserDAOImpl;
+import com.example.demo.repository.UserRepository;
 
 @SpringBootApplication
 public class LoginSpringApplication {
 	
-	  @Autowired
-	  private UsersRepository usersRepository;
+	@Autowired
+    UserRepository repository;
 
 	public static void main(String[] args) throws Exception {
-		SpringApplication.run(LoginSpringApplication.class, args);		
+		SpringApplication.run(LoginSpringApplication.class, args);	
 		
+		UserDAOImpl.insertUser();
 		
-		UserMethods.insertUser();
 	}
-	
- 
 
 }

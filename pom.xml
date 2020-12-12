@@ -49,6 +49,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
+		<dependency>
+    		<groupId>org.hibernate</groupId>
+   			<artifactId>hibernate-core</artifactId>
+		</dependency>
 		
 		<!-- below are for compiling JSP pages --> 
 		<dependency>
@@ -67,6 +71,7 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
+
 
 	<build>
 		<plugins>
