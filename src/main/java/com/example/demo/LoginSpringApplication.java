@@ -16,7 +16,8 @@ public class LoginSpringApplication {
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(LoginSpringApplication.class, args);	
 		
-		UserDAO.insertUser();
+		// UserDAO.insertUser(null, null, null, null);
+		UserDAO.getUser("bzvzz@mail.com");
 		
 	}
 
