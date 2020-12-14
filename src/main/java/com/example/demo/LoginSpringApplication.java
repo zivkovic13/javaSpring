@@ -17,7 +17,7 @@ public class LoginSpringApplication {
 		SpringApplication.run(LoginSpringApplication.class, args);	
 		
 		// UserDAO.insertUser(null, null, null, null);
-		UserDAO.getUser("bzvzz@mail.com");
+		// UserDAO.getUser("bzvzz@mail.com");
 		
 	}
 
