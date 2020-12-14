@@ -14,7 +14,7 @@
 <body>
   <div class="main">
     <p class="sign" align="center">Register</p>
-    <form class="form1">
+    <form class="form2">
       <input class="un " type="text" align="center" placeholder="First Name"
       		 onfocus="this.placeholder = ''" required>
       <input class="pass" type="password" align="center" placeholder="Last Name"

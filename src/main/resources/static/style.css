@@ -6,14 +6,14 @@ body {
     .main {
         background-color: #FFFFFF;
         width: 400px;
-        height: 400px;
+        height: 800px;
         margin: 7em auto;
         border-radius: 1.5em;
         box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
     }
     
     .sign {
-        padding-top: 40px;
+      /*  padding-top: 40px; */
         color: #8C55AA;
         font-family: 'Ubuntu', sans-serif;
         font-weight: bold;
@@ -42,6 +42,10 @@ body {
     
     form.form1 {
         padding-top: 40px;
+    }
+    
+    form.form2 {
+        padding-top: 20px;
     }
     
     .pass {
